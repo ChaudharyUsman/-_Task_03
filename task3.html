@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Dashboard</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #00ffe1;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .dashboard {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 800px;
+        width: 90%;
+    }
+    .social-media-feed {
+        margin-top: 20px;
+    }
+    .feed-item {
+        border-bottom: 1px solid #ccc;
+        padding: 20px 0;
+    }
+    .feed-item:last-child {
+        border-bottom: none;
+    }
+    .feed-item h3 {
+        margin: 0;
+        color: #333;
+    }
+    .feed-item p {
+        color: #666;
+        margin: 10px 0 0;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Social Media Dashboard</h1>
+</header>
+<div class="container">
+    <div class="dashboard">
+        <h2 style="text-align: center;">Welcome to Your Social Media Dashboard</h2>
+        <div class="social-media-feed">
+            <div class="feed-item">
+                <h3>Facebook Feed</h3>
+                <p>This is where your Facebook feed will appear.</p>
+            </div>
+            <div class="feed-item">
+                <h3>Twitter Feed</h3>
+                <p>This is where your Twitter feed will appear.</p>
+            </div>
+            <div class="feed-item">
+                <h3>Instagram Feed</h3>
+                <p>This is where your Instagram feed will appear.</p>
+            </div>
+            <!-- Add more feed sections for other social media platforms -->
+        </div>
+    </div>
+</div>
+</body>
+</html>
